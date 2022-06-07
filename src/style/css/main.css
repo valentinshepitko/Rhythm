@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 h1, h2 {
   margin: 0;
 }
@@ -21,6 +35,73 @@ a {
 
 img {
   display: block;
-  width: 100%;
+}
+
+.header {
+  padding: 50px 0 150px;
+}
+.header__holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__logo-link {
+  margin-right: 130px;
+}
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+.header__nav-link {
+  color: #666666;
+  opacity: 0.8;
+}
+
+.hero {
+  position: relative;
+}
+.hero__title {
+  font-weight: 600;
+  font-size: 56px;
+  max-width: 469px;
+  line-height: 67px;
+  letter-spacing: -4px;
+  padding-bottom: 16px;
+}
+.hero__text {
+  color: #666666;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 400px;
+  padding-bottom: 33px;
+}
+.hero__orange-text {
+  color: #FF6428;
+}
+.hero__link-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.hero__button {
+  width: 192px;
+  height: 60px;
+  background: #FF6428;
+  text-align: center;
+  padding-top: 17px;
+  border-radius: 40px;
+  color: white;
+}
+.hero__link-playmarket {
+  padding-top: 12px;
+}
+.hero__link-apple {
+  padding-top: 8px;
+}
+.hero__image {
+  position: absolute;
+  bottom: -65px;
+  right: 0;
 }
 /*# sourceMappingURL=main.css.map */
