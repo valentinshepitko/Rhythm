@@ -37,6 +37,10 @@ img {
   display: block;
 }
 
+.orange-text {
+  color: #FF6428;
+}
+
 .header {
   padding: 50px 0 150px;
 }
@@ -56,6 +60,9 @@ img {
   color: #666666;
   opacity: 0.8;
 }
+.header__nav-link:hover {
+  color: #FF6428;
+}
 
 .hero {
   position: relative;
@@ -67,6 +74,7 @@ img {
   line-height: 67px;
   letter-spacing: -4px;
   padding-bottom: 16px;
+  color: #121212;
 }
 .hero__text {
   color: #666666;
@@ -93,6 +101,9 @@ img {
   border-radius: 40px;
   color: white;
 }
+.hero__button:hover {
+  background-color: #121212;
+}
 .hero__link-playmarket {
   padding-top: 12px;
 }
@@ -103,5 +114,117 @@ img {
   position: absolute;
   bottom: -65px;
   right: 0;
+}
+.hero__circle {
+  position: absolute;
+  bottom: -105px;
+  right: 242px;
+}
+
+.store {
+  padding-top: 220px;
+  padding-bottom: 180px;
+}
+.store__title-holder {
+  text-align: center;
+}
+.store__title {
+  font-weight: 600;
+  font-size: 44px;
+  padding-bottom: 56px;
+  color: #121212;
+}
+.store__category-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.store__category {
+  font-weight: 600;
+  font-size: 20px;
+  color: #121212;
+}
+.store__view {
+  font-weight: 500;
+  font-size: 20px;
+  color: #666666;
+}
+.store__view:hover {
+  color: #FF6428;
+}
+.store__column-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding-bottom: 102px;
+}
+.store__product-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+  padding-bottom: 6px;
+}
+.store__product-price {
+  font-size: 14px;
+  color: #666666;
+}
+
+.categories {
+  padding-bottom: 220px;
+}
+.categories__title-holder {
+  text-align: center;
+}
+.categories__title {
+  font-weight: 600;
+  font-size: 44px;
+  padding-bottom: 80px;
+  color: #121212;
+}
+.categories__holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.categories__link {
+  position: relative;
+}
+.categories__link:hover {
+  filter: brightness(0.75);
+  transition: ease-in-out 0.3s;
+}
+
+.brands {
+  padding-bottom: 180px;
+}
+.brands__title {
+  font-weight: 600;
+  font-size: 44px;
+  padding-bottom: 86px;
+  color: #121212;
+  text-align: center;
+}
+.brands__column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 190px;
+  padding-bottom: 80px;
+}
+.brands__image-gretch {
+  padding-top: 11px;
+}
+
+.why-rhythm {
+  background-color: #121212;
+  max-height: 508px;
+}
+.why-rhythm__title {
+  font-weight: 600;
+  font-size: 44px;
+  padding-bottom: 66px;
+  color: white;
+  text-align: center;
+  padding-top: 93px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+.brands{
+
+  padding-bottom: 180px;
+  &__title{
+    font-weight: 600;
+    font-size: 44px;
+    padding-bottom: 86px;
+    color: $black;
+    text-align: center;
+  }
+
+  &__column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 190px;
+    padding-bottom: 80px;
+  }
+
+  &__image-gretch{
+    padding-top: 11px;
+  }
+}

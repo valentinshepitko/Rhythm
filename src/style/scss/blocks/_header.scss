@@ -20,5 +20,9 @@
   &__nav-link{
     color: $grey;
     opacity: 0.8;
+
+    &:hover{
+      color: $orange;
+    }
   }
 }

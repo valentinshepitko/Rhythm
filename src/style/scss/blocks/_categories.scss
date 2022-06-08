@@ -1,0 +1,32 @@
+.categories{
+
+  padding-bottom: 220px;
+
+  &__title-holder{
+    text-align: center;
+  }
+
+  &__title{
+    font-weight: 600;
+    font-size: 44px;
+    padding-bottom: 80px;
+    color: $black;
+  }
+
+  &__holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+
+  &__link{
+
+    position: relative;
+
+    &:hover{
+      filter: brightness(.75);
+      transition: ease-in-out 0.3s;
+    }
+  }
+}
