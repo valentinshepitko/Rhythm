@@ -11,4 +11,46 @@
     text-align: center;
     padding-top: 93px;
   }
+
+  &__column-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+    padding-bottom: 95px;
+  }
+
+  &__column{
+    max-width: 230px;
+  }
+
+  &__icon-holder{
+    background-color: #262626;
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  &__icon{
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+  }
+
+  &__heading{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text{
+    font-size: 14px;
+    color: $grey;
+    text-align: center;
+  }
 }

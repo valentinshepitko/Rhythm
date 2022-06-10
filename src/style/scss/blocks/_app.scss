@@ -1,0 +1,52 @@
+.app{
+
+  padding-bottom: 160px;
+
+  &__content{
+    max-width: 456px;
+  }
+
+  &__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    color: $black;
+    padding-bottom: 60px;
+    letter-spacing: -3px;
+  }
+
+  &__holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  &__link-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  &__image-holder{
+    position: relative;
+  }
+
+  &__element{
+    width: 568px;
+    height: 354px;
+    background-color: $orange;
+    border-radius: 50%;
+  }
+
+  &__image1{
+    position: absolute;
+    top: -181px;
+    left: -37px;
+  }
+  &__image2{
+    position: absolute;
+    top: -106px;
+    left: 214px;
+  }
+}

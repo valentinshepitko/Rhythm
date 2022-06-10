@@ -1,0 +1,107 @@
+.footer{
+  background-color: $light-grey;
+  max-height: 400px;
+
+  &__holder{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+  }
+
+  &__logo-column{
+    padding-right: 253px;
+  }
+
+  &__column{
+    padding-right: 156px;
+  }
+
+  &__column2{
+    padding-right: 200px;
+  }
+
+  &__logo{
+    padding-bottom: 20px;
+  }
+
+  &__mail-holder{
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  &__mail-icon{
+    padding-right: 20px;
+  }
+
+  &__mail{
+    font-size: 16px;
+    color: $grey;
+
+    &:hover{
+      color: $orange;
+    }
+  }
+
+  &__location{
+    display: flex;
+  }
+
+  &__location-link{
+    color: $grey;
+
+    &:hover{
+      color: $orange;
+    }
+  }
+
+  &__location-icon{
+    padding-right: 20px;
+  }
+
+  &__location-title{
+    font-size: 16px;
+    color: $grey;
+  }
+
+  &__column-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: $black;
+    padding-bottom: 20px;
+  }
+
+  &__link-holder{
+    padding-bottom: 16px;
+  }
+
+  &__link{
+    color: $grey;
+
+    &:hover{
+      color: $orange;
+    }
+  }
+
+  &__social-title{
+    padding-bottom: 20px;
+  }
+
+  &__social-link{
+    padding-right: 20px;
+  }
+
+  &__icon{
+
+    :hover{
+      fill: #e34900;
+    }
+  }
+
+  &__copyright{
+    text-align: center;
+    color: $grey;
+    padding-bottom: 43px;
+  }
+
+}

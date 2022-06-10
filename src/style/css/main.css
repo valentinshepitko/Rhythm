@@ -189,9 +189,21 @@ img {
 .categories__link {
   position: relative;
 }
-.categories__link:hover {
+.categories__image:hover {
   filter: brightness(0.75);
   transition: ease-in-out 0.3s;
+}
+.categories__link-title {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  z-index: 2;
 }
 
 .brands {
@@ -200,7 +212,7 @@ img {
 .brands__title {
   font-weight: 600;
   font-size: 44px;
-  padding-bottom: 86px;
+  padding-bottom: 96px;
   color: #121212;
   text-align: center;
 }
@@ -226,5 +238,220 @@ img {
   color: white;
   text-align: center;
   padding-top: 93px;
+}
+.why-rhythm__column-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 220px;
+  padding-bottom: 95px;
+}
+.why-rhythm__column {
+  max-width: 230px;
+}
+.why-rhythm__icon-holder {
+  background-color: #262626;
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.why-rhythm__icon {
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.why-rhythm__heading {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.why-rhythm__text {
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.testimonials {
+  padding-top: 140px;
+  padding-bottom: 375px;
+}
+.testimonials__title-holder {
+  text-align: center;
+  padding-bottom: 90px;
+}
+.testimonials__title {
+  font-weight: 600;
+  font-size: 44px;
+  padding-bottom: 80px;
+  color: #121212;
+}
+.testimonials__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.testimonials__image-holder {
+  position: relative;
+}
+.testimonials__element {
+  width: 284.72px;
+  height: 257.89px;
+  border-radius: 40px 0 400px 400px;
+  transform: rotate(-7.72deg);
+  background-color: #FF6428;
+}
+.testimonials__photo {
+  position: absolute;
+  top: -31px;
+  left: 63px;
+}
+.testimonials__content-holder {
+  max-width: 525px;
+}
+.testimonials__text {
+  font-size: 24px;
+  line-height: 160%;
+  color: #666666;
+}
+.testimonials__name {
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+  padding-bottom: 8px;
+}
+.testimonials__profile {
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  color: #666666;
+}
+
+.app {
+  padding-bottom: 160px;
+}
+.app__content {
+  max-width: 456px;
+}
+.app__title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 140%;
+  color: #121212;
+  padding-bottom: 60px;
+  letter-spacing: -3px;
+}
+.app__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.app__link-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.app__image-holder {
+  position: relative;
+}
+.app__element {
+  width: 568px;
+  height: 354px;
+  background-color: #FF6428;
+  border-radius: 50%;
+}
+.app__image1 {
+  position: absolute;
+  top: -181px;
+  left: -37px;
+}
+.app__image2 {
+  position: absolute;
+  top: -106px;
+  left: 214px;
+}
+
+.footer {
+  background-color: #EEEEEE;
+  max-height: 400px;
+}
+.footer__holder {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+.footer__logo-column {
+  padding-right: 253px;
+}
+.footer__column {
+  padding-right: 156px;
+}
+.footer__column2 {
+  padding-right: 200px;
+}
+.footer__logo {
+  padding-bottom: 20px;
+}
+.footer__mail-holder {
+  display: flex;
+  padding-bottom: 20px;
+}
+.footer__mail-icon {
+  padding-right: 20px;
+}
+.footer__mail {
+  font-size: 16px;
+  color: #666666;
+}
+.footer__mail:hover {
+  color: #FF6428;
+}
+.footer__location {
+  display: flex;
+}
+.footer__location-link {
+  color: #666666;
+}
+.footer__location-link:hover {
+  color: #FF6428;
+}
+.footer__location-icon {
+  padding-right: 20px;
+}
+.footer__location-title {
+  font-size: 16px;
+  color: #666666;
+}
+.footer__column-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #121212;
+  padding-bottom: 20px;
+}
+.footer__link-holder {
+  padding-bottom: 16px;
+}
+.footer__link {
+  color: #666666;
+}
+.footer__link:hover {
+  color: #FF6428;
+}
+.footer__social-title {
+  padding-bottom: 20px;
+}
+.footer__social-link {
+  padding-right: 20px;
+}
+.footer__icon :hover {
+  fill: #e34900;
+}
+.footer__copyright {
+  text-align: center;
+  color: #666666;
+  padding-bottom: 43px;
 }
 /*# sourceMappingURL=main.css.map */
