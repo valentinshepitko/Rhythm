@@ -4,6 +4,15 @@
 
   &__content{
     max-width: 456px;
+
+
+    @include breakpoint('lg') {
+      margin: 0 auto;
+    }
+
+    @include breakpoint('xl') {
+      margin: 0 auto;
+    }
   }
 
   &__title{
@@ -13,6 +22,11 @@
     color: $black;
     padding-bottom: 60px;
     letter-spacing: -3px;
+
+    @include breakpoint('xs') {
+      font-size: 24px;
+      letter-spacing: -1px;
+    }
   }
 
   &__holder{
@@ -30,6 +44,20 @@
 
   &__image-holder{
     position: relative;
+
+    @include breakpoint('lg') {
+      margin: 0 auto;
+    }
+
+    @include breakpoint('lg') {
+      margin: 0 auto;
+      padding-top: 200px;
+    }
+
+    @include breakpoint('xl') {
+      margin: 0 auto;
+      padding-top: 200px;
+    }
   }
 
   &__element{
@@ -37,16 +65,47 @@
     height: 354px;
     background-color: $orange;
     border-radius: 50%;
+
+    @include breakpoint('xs') {
+      display: none;
+    }
   }
 
   &__image1{
     position: absolute;
     top: -181px;
     left: -37px;
+
+    @include breakpoint('xs') {
+      display: none;
+    }
+
+    @include breakpoint('lg') {
+      top: -106px;
+      left: 0;
+      width: 70%;
+    }
+
+    @include breakpoint('xl') {
+      padding-top: 200px;
+    }
   }
+
   &__image2{
     position: absolute;
     top: -106px;
     left: 214px;
+
+    @include breakpoint('xs') {
+     position: center;
+    }
+
+    @include breakpoint('lg') {
+      padding-top: 200px;
+    }
+
+    @include breakpoint('xl') {
+      padding-top: 200px;
+    }
   }
 }

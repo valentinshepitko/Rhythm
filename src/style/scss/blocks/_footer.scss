@@ -1,16 +1,39 @@
 .footer{
   background-color: $light-grey;
-  max-height: 400px;
 
   &__holder{
     padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 80px;
+
+    @include breakpoint('md') {
+      width: 80%;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    @include breakpoint('lg') {
+      width: 100%;
+    }
+
+    @include breakpoint('xl') {
+      width: 100%;
+    }
   }
 
   &__logo-column{
     padding-right: 253px;
+
+    @include breakpoint('md') {
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    @include breakpoint('lg') {
+      padding-right: 100px;
+      padding-left: 40px;
+    }
   }
 
   &__column{
@@ -19,6 +42,10 @@
 
   &__column2{
     padding-right: 200px;
+
+    @include breakpoint('lg') {
+      padding-right: 150px;
+    }
   }
 
   &__logo{

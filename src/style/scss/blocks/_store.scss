@@ -3,6 +3,10 @@
   padding-top: 220px;
   padding-bottom: 180px;
 
+  @include breakpoint('lg') {
+    padding-bottom: 70px;
+  }
+
   &__title-holder{
     text-align: center;
   }
@@ -12,11 +16,19 @@
     font-size: 44px;
     padding-bottom: 56px;
     color: $black;
+
+    @include breakpoint('xs') {
+      font-size: 24px;
+    }
   }
 
   &__category-holder{
     display: flex;
     justify-content: space-between;
+
+    @include breakpoint('lg') {
+      padding: 20px;
+    }
   }
 
   &__category{
@@ -40,6 +52,17 @@
     flex-wrap: wrap;
     gap: 44px;
     padding-bottom: 102px;
+
+    @include breakpoint('md') {
+      margin: 0 auto;
+      width: 80%;
+      justify-content: center;
+    }
+
+    @include breakpoint('lg') {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 
   &__product-title{
@@ -47,10 +70,18 @@
     font-size: 16px;
     color: $black;
     padding-bottom: 6px;
+
+    @include breakpoint('xs') {
+      padding-left: 10px;
+    }
   }
 
   &__product-price{
     font-size: 14px;
     color: $grey;
+
+    @include breakpoint('xs') {
+      padding-left: 10px;
+    }
   }
 }
